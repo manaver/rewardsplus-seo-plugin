@@ -1,6 +1,6 @@
 {
-  "name": "@your-npm-scope/rewardsplusseo",
-  "version": "0.1.0",
+  "name": "@rewardsplus/rewardsplusseo",
+  "version": "0.1.1",
   "description": "A Next.js plugin for generating SEO metadata (Schema.org, OpenGraph, Twitter Cards).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
