@@ -15,7 +15,7 @@ A Next.js plugin for easily generating SEO metadata, including Schema.org struct
 ## Installation
 
 ```bash
-yarn add @rewardsplus/rewardsplusseo  # Replace with your actual package name
+yarn add @rewardsplus/rewardsplusseo  
 ```
 
 Or, with npm:
