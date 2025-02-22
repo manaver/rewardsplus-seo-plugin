@@ -1,3 +1,3 @@
-// src/index.ts
-export { default as generateRewardsPlusMetadata } from './components/RewardsPlusSEO';
-export type { RewardsPlusSEOProps } from './components/RewardsPlusSEO';
+export { generateRewardsPlusMetadata } from './RewardsPlusSEO';
+export { default as SchemaOrgScript } from './SchemaOrgScript';
+export type { RewardsPlusSEOProps, SchemaOrgScriptProps } from './types'; // Export types
