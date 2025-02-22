@@ -15,13 +15,13 @@ A Next.js plugin for easily generating SEO metadata, including Schema.org struct
 ## Installation
 
 ```bash
-yarn add @your-npm-scope/rewardsplusseo  # Replace with your actual package name
+yarn add @rewardsplus/rewardsplusseo  # Replace with your actual package name
 ```
 
 Or, with npm:
 
 ```bash
-npm install @your-npm-scope/rewardsplusseo
+npm install @rewardsplus/rewardsplusseo
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ This package provides a function, `generateRewardsPlusMetadata`, which you use t
 ```typescript
 // app/page.tsx
 import type { Metadata } from 'next';
-import { generateRewardsPlusMetadata, RewardsPlusSEOProps } from '@your-npm-scope/rewardsplusseo';
+import { generateRewardsPlusMetadata, RewardsPlusSEOProps } from '@rewardsplus/rewardsplusseo';
 
 const seoProps: RewardsPlusSEOProps = {
   pageType: 'home',
@@ -59,7 +59,7 @@ export default function Home() {
 ```typescript
 // app/articles/[slug]/page.tsx
 import type { Metadata, GetStaticPaths } from 'next';
-import { generateRewardsPlusMetadata, RewardsPlusSEOProps } from '@your-npm-scope/rewardsplusseo';
+import { generateRewardsPlusMetadata, RewardsPlusSEOProps } from '@rewardsplus/rewardsplusseo';
 
 interface ArticleProps { // Define props for clarity (optional, but recommended)
   title: string;
@@ -136,7 +136,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 ```typescript
 // app/products/[slug]/page.tsx
 import type { Metadata, GetStaticPaths } from 'next';
-import { generateRewardsPlusMetadata, RewardsPlusSEOProps } from '@your-npm-scope/rewardsplusseo';
+import { generateRewardsPlusMetadata, RewardsPlusSEOProps } from '@rewardsplus/rewardsplusseo';
 
 interface ProductProps { // Define type
   title: string;
@@ -240,7 +240,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 **Other Page (`app/faq/page.tsx` - Using `additionalSchema`):**
 ```typescript
 import type { Metadata } from 'next';
-import { generateRewardsPlusMetadata, RewardsPlusSEOProps } from '@your-npm-scope/rewardsplusseo';
+import { generateRewardsPlusMetadata, RewardsPlusSEOProps } from '@rewardsplus/rewardsplusseo';
 
 const seoProps: RewardsPlusSEOProps = {
   pageType: 'other',
